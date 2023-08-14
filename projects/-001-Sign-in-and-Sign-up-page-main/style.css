@@ -1,0 +1,145 @@
+body {
+  background-color: #d7ffee;
+}
+
+.welcome {
+  color: #000;
+  font-family: Playfair Display;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+#btn-text {
+  color: #fff;
+  font-family: Poppins, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+#btn-google {
+  border-radius: 10px;
+  border: 1.5px dashed #000;
+  background: linear-gradient(
+    90deg,
+    #ea4335 0%,
+    #fbbc05 25.41%,
+    #34a853 76.33%,
+    #4285f4 100%
+  );
+  width: 320px;
+  height: 40px;
+  flex-shrink: 0;
+}
+
+#btn-facebook {
+  width: 320px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1.5px dashed #000;
+  background: #4e71a8;
+}
+
+main {
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+}
+.box {
+  width: 468px;
+  height: 482px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: #fff;
+  padding: 54px 74px 53px 74px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.buttons img {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.btn {
+  width: 320px;
+  height: 40px;
+  flex-shrink: 0;
+  margin: 0 auto;
+  margin-top: 12px;
+}
+.dash_line {
+  margin-top: 18px;
+}
+
+.form-control {
+  border-radius: 10px;
+  background: #f1f1f1;
+  width: 320px;
+  height: 40px;
+  flex-shrink: 0;
+}
+.form-control::placeholder {
+  color: #000;
+  font-family: Playfair Display, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.30000001192092896;
+}
+
+#reset_password {
+  color: #00a3ff;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-decoration: none;
+  position: relative;
+  left: 115px;
+  top: 8px;
+}
+#reset_password:hover {
+  color: black;
+}
+
+#login-button {
+  width: 320px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #52f338;
+  border: none;
+  color: #fff;
+  font-family: Poppins, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.bottom-p {
+  position: relative;
+  top: 9px;
+  color: #000;
+  font-family: Playfair Display;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#bottom-text-a a{
+  text-decoration: none;
+  color: #52F338;
+}
+#bottom-text-a a:hover{
+  text-decoration: none;
+  color: black;
+}
