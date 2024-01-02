@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Roboto:wght@400;700;900&display=swap');
+:root {
+    /* Colors */
+    --green: #04ddb2;
+    --white: #fff;
+    --black: #333;
+    --grey: #767676;
+}
+
+
+li,
+a,
+h1,
+h2,
+h3,
+p,
+button {
+    text-decoration: none;
+    font-family: Roboto;
+}
+
+/* navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 5%;
+}
+
+nav>.logo a {
+    font-size: 28px;
+    color: var(--black);
+    font-weight: bold;
+}
+
+nav>.nav_links {
+    list-style: none;
+}
+
+nav>.nav_links li {
+    display: inline-block;
+    padding: 0 25px;
+}
+
+nav>.nav_links li a {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--grey);
+    transition: all 0.3 ease 0s;
+}
+
+nav>.nav_links li a:hover {
+    color: var(--black);
+}
+
+#download_btn {
+    background-color: var(--green);
+    padding: 15px;
+    border: none;
+    border-radius: 25px;
+}
+
+#download_btn a {
+    padding: 0 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* hero */
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px 0;
+}
+
+.hero h1 {
+    color: var(--black);
+    font-size: 82px;
+    font-weight: 900;
+}
+.hero h1 > span{
+    color: var(--green);
+}
+.hero p{
+    text-align: center;
+    padding: 15px 0;
+    padding-bottom: 60px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.6;
+}
+
+.hero img {
+    max-width: 70%;
+    border-radius: 4%;
+}
+
+/* Download Section */
+.download{
+    text-align: center;
+    padding: 25px 0;
+}
+
+.download h2{
+    font-size: 62px;
+    font-weight: 900;
+    color: var(--black);
+}
+
+.download > button{
+    margin: 35px 0;
+}
+
+hr{
+    max-width: 1200px;
+}
+
+/* footer */
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 31%;
+}
+footer > .list >
+h3,
+li,
+a{
+    margin-bottom: 32px;
+    text-decoration: none;
+    color: var(--black);
+}
+footer h3{
+    font-weight: 900;
+    font-size: 18px;
+}
+footer > .social_media{
+    display: inline;
+}
+footer > .social_media > a{
+    margin: 0 5px;
+}
